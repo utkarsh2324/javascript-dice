@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+            display:grid;
+            grid-template-rows: .5fr 1fr;
+            text-align:center
+        }
+        .box h1{
+            margin: 30px;
+              font-family: 'Lobster', cursive;
+                text-shadow: 5px 0 #232931;
+                font-size: 8rem;
+                color: #4ECCA3;
+
+        }
+       .main{
+        display:flex;
+        flex-wrap:wrap;
+        gap:50px;
+        justify-content:space-around;
+        align-items:center;
+       }
+       .dice p{
+        
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+       }
+    img{
+        width:80%
+    }
+    footer{
+       
+  margin-top: 5%;
+  color:#4ECCA3;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container box"> 
+        <h1>Refresh Me</h1>
+    <div class="main">
+    <div class="dice">
+        <p>Player 1</p>
+        <img src="./image/dice6.png" class="img1">
+    </div>
+    <div class="dice">
+        <p>Player 2</p>
+        <img src="./image/dice5.png" class="img2">
+    </div></div>
+    </div>
+    <footer>www 🎲 Utkarsh raj patel 🎲 com</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
